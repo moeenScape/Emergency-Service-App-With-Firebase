@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bayzidhimel.emergencyserviceapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/hospital"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hospital"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EmergencyServiceApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".root_blood_bank"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterLogIn"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".dhaka_police"
+            android:exported="false" />
+        <activity
+            android:name=".chotto_raj_bari_firestation"
+            android:exported="false" />
+        <activity
+            android:name=".root_policestation"
+            android:exported="false" />
+        <activity
+            android:name=".root_fireservice"
+            android:exported="false" />
+        <activity
+            android:name=".mymensingh_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".chottogram_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".moymonshing_devesion_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".shylet_devision_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".rajsahi_devesion_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".barisahal_devision_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".chotttogram_devision_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".dhaka_devision_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".root_ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".tangile_foridpur_gopalgonz"
+            android:exported="false" />
+        <activity
+            android:name=".kisorgonj_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".gazipur_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".narayanjong_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".common_information"
+            android:exported="false" />
+        <activity
+            android:name=".dhaka_devision_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".root_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".newnews"
+            android:exported="false" />
+        <activity
+            android:name=".ambulace_info"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatesNews"
+            android:exported="false" />
+        <activity
+            android:name=".FireStaionInfo"
+            android:exported="false" />
+        <activity
+            android:name=".policeStaioninfo"
+            android:exported="false" />
+        <activity
+            android:name=".Hospitalinformation"
+            android:exported="false" />
+        <activity
+            android:name=".informationmain"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

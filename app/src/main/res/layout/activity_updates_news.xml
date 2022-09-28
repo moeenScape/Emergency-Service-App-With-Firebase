@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdatesNews">
+    <RelativeLayout
+        android:id="@+id/xxxTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <View
+                android:id="@+id/view1_profile"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/layMyProfile"
+                android:background="@color/web_top" />
+
+
+            <LinearLayout
+                android:id="@+id/layMyProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/web_top"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/goback_white"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:tag="back"
+                    android:paddingTop="8dp"
+                    />
+
+                <TextView
+                    android:id="@+id/webTitile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Website Loading"
+                    android:gravity="left|center"
+                    android:textStyle="normal"
+                    android:textColor="#FFFFFF"
+                    android:paddingTop="5dp"
+                    android:textSize="18sp"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layRoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layMyProfile"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/m_rectangle_back"
+                android:minHeight="120dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    app:lottie_rawRes="@raw/loading"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    android:padding="15dp"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/layNonet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <include
+                        layout="@layout/no_internet"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

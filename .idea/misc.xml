@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Emergency/app/src/main/res/drawable/bottom_curved.xml" value="0.2225" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/cuscolor1.xml" value="0.123" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/customcolor.xml" value="0.201" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/custome_button.xml" value="0.124" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/m_rectangle_back.xml" value="0.241" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/shape_two_cervvd.xml" value="0.2235" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/splash.xml" value="0.241" />
+        <entry key="..\:/Emergency/app/src/main/res/drawable/two_color_curved.xml" value="0.241" />
+        <entry key="..\:/Emergency/app/src/main/res/font/fontvalue.xml" value="0.2833333333333333" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_ambulace_info.xml" value="0.264" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_barisahal_devision_ambulance.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_chotto_raj_bari_firestation.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_chottogram_hospital.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_chotttogram_devision_ambulance.xml" value="0.176" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_common_information.xml" value="0.2" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_dhaka_devision_ambulance.xml" value="0.17364939360529216" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_dhaka_devision_hospital.xml" value="0.15" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_dhaka_police.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_fire_staion_info.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_gazipur_hospital.xml" value="0.264" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_homepage.xml" value="0.24230072463768115" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_hospitalinformation.xml" value="0.2" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_informationmain.xml" value="0.25" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_kisorgonj_hospital.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_login.xml" value="0.24230072463768115" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_moymonshing_devesion_ambulance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_mymensingh_hospital.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_narayanjong_hospital.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_newnews.xml" value="0.128" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_police_staioninfo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_rajsahi_devesion_ambulance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_register_log_in.xml" value="0.1640625" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_root_ambulance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_root_blood_bank.xml" value="0.24010416666666667" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_root_fireservice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_root_hospital.xml" value="0.19746376811594202" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_root_policestation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_shylet_devision_ambulance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_tangile_foridpur_gopalgonz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/activity_updates_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Emergency/app/src/main/res/layout/no_internet.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

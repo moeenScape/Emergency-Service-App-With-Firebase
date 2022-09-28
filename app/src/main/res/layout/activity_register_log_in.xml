@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/two_color_curved"
+    tools:context=".RegisterLogIn">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:text="Create Acount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idname"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:id="@+id/idemail"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idphone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:paddingLeft="20dp"
+
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idphone"
+
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idemail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:hint="Enter Number"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/idsignIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/idslogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/idsignIn"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_two_cervvd"
+        android:gravity="center"
+        android:text="Log In"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+
+
+
+</RelativeLayout>

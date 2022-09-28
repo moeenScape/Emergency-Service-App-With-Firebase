@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572431453365",
+    "project_id": "emergency-service-app-ea4c7",
+    "storage_bucket": "emergency-service-app-ea4c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572431453365:android:3fd81c61107fbbb73502fc",
+        "android_client_info": {
+          "package_name": "com.bayzidhimel.emergencyserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572431453365-hq8gh98t4mjreov94ldb1bgsedd2cvc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWG4QTxdcvq-khODTe6EiXBD2SH5tvnYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572431453365-hq8gh98t4mjreov94ldb1bgsedd2cvc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

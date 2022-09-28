@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tangile_foridpur_gopalgonz">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="টাঙ্গাইল জেলা"
+                android:background="@drawable/two_color_curved"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10px"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ধলেশ্বরী হাসপাতাল টাঙ্গাইল"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="  7W38+J6W, Akur Takur Para, Zila Sadar Rd, Tangail 1900" />
+                            <TextView
+                                android:id="@+id/idcallhospital1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" 01793-008732"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="  সরকার হসপিটাল"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="  7W6C+9W8, সাবালিয়া,টাংগাইল, বাংলাদে।, Sabalia Panjapara Rd, Tangail" />
+                            <TextView
+                                android:id="@+id/idcallhospital2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" 01319-601920"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ফরিদপুর জেলা"
+                android:id="@+id/idforidpur"
+                android:background="@drawable/two_color_curved"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10px"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="General Hospital, Faridpur"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="   Mujib Sharak, Faridpur 7800" />
+                            <TextView
+                                android:id="@+id/idcallhospital3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" 999"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="   Faridpur Shamorita General Hospital Ltd."
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="  JR3P+XH9, মুজিব সড়ক, Dhaka-Faridpur Highway, Faridpur" />
+                            <TextView
+                                android:id="@+id/idcallhospital4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" 01712-122910"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="গোপালগঞ্জ জেলা"
+                android:id="@+id/idgopalgonj"
+                android:background="@drawable/two_color_curved"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10px"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="250 Bedded General Hospital"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="  Gopalganj Town Rd, Gopalganj" />
+                            <TextView
+                                android:id="@+id/idcallhospital5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=" 999"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/hospital"
+
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:padding="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="   গোপালগঞ্জ স্পেশালাইজড হাসপাতাল"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                                android:text="  332/1, kuadanga Bus stand road, 8100" />
+                            <TextView
+                                android:id="@+id/idcallhospital6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="  01798-797076"
+                                android:padding="5dp"
+                                android:paddingTop="5dp"
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
